@@ -53,13 +53,13 @@ git branch -d <branch_name>
    远程
 ----------
 
-git remote add origin git@jisuanke.com:/Jisuanke/jisuanke.git
+git remote add origin <地址>
 添加远程仓库的地址，远程仓库的名字是 origin
 
 git push origin master
 提交内容到远程仓库
 
-git clone git@jisuanke.com:/Jisuanke/jisuanke1.git
+git clone <地址>
 将整个远程仓库克隆下来
 
 git pull origin master
@@ -74,5 +74,5 @@ git branch -a
 git checkout -b dev
 创建并切换到 dev 分支
 
-git push origin --delete suanshu
-删除远程上的分支：suanshu
+git push origin --delete forks
+删除远程上的分支：forks
