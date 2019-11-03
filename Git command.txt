@@ -1,0 +1,78 @@
+git config --global user.name <name>
+git config --global user.email <email>
+配置用户信息
+
+git help <command>
+查阅命令用法
+
+git init
+初始化一个仓库
+
+ls -a
+查看隐藏文件：.git
+
+git status
+查看文件的状态
+
+git add <filename>
+追踪文件
+
+git commit -m <info>
+提交，以及提交说明
+
+git log
+回顾提交历史
+
+工作区 -> 暂存区 -> 版本
+
+git commit --amend
+把暂存区里的文件，提交到上一次提交里
+
+git reset --hard HEAD~<n>
+回退到上一个版本
+
+git checkout <file>
+把文件还原成以前的提交
+
+git branch <branch_name>
+创建一个新分支
+
+git checkout <branch_name>
+切换到新的分支
+
+git branch
+查看现在在哪一个分支
+
+git merge <branch_name>
+把此分支融合进来
+
+git branch -d <branch_name>
+删除此分支（-D 如果还没有进行合并）
+
+----------
+   远程
+----------
+
+git remote add origin git@jisuanke.com:/Jisuanke/jisuanke.git
+添加远程仓库的地址，远程仓库的名字是 origin
+
+git push origin master
+提交内容到远程仓库
+
+git clone git@jisuanke.com:/Jisuanke/jisuanke1.git
+将整个远程仓库克隆下来
+
+git pull origin master
+与远程仓库同步 master 分支
+
+git fetch
+与远程仓库的新分支同步
+
+git branch -a
+查看本地与远程的所有分支
+
+git checkout -b dev
+创建并切换到 dev 分支
+
+git push origin --delete suanshu
+删除远程上的分支：suanshu
