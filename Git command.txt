@@ -2,6 +2,12 @@ git config --global user.name <name>
 git config --global user.email <email>
 配置用户信息
 
+cd filename
+打开文件
+
+touch filename
+新建文件
+
 git help <command>
 查阅命令用法
 
