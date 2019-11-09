@@ -6,7 +6,10 @@ cd filename
 打开文件
 
 touch .gitignore
-新建  .gitignore排除项文件
+新建  .gitignore排除项文件  .gitattributes需要的文件
+
+:qa
+退出视图
 
 git help <command>
 查阅命令用法
