@@ -5,8 +5,8 @@ git config --global user.email <email>
 cd filename
 打开文件
 
-touch filename
-新建文件
+touch .gitignore
+新建  .gitignore排除项文件
 
 git help <command>
 查阅命令用法
